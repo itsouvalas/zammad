@@ -1,14 +1,4 @@
 GIT
-  remote: https://github.com/thorsteneckel/autodiscover.git
-  revision: 29d713ee0c8c25fcf74c4292ff13fe1fa4d0d827
-  specs:
-    autodiscover (1.0.2)
-      httpclient
-      logging
-      nokogiri
-      nori
-
-GIT
   remote: https://github.com/wimm/rubyntlm.git
   revision: 53969639b87b9e5d5fef560f19cf0d977259591c
   specs:
@@ -65,6 +55,11 @@ GEM
       ffi (~> 1.9)
       ffi-compiler (~> 0.1)
     ast (2.3.0)
+    autodiscover (1.0.2)
+      httpclient
+      logging
+      nokogiri
+      nori
     autoprefixer-rails (7.1.2.4)
       execjs
     biz (1.7.0)
@@ -459,10 +454,11 @@ DEPENDENCIES
   activerecord-nulldb-adapter
   activerecord-session_store
   argon2
-  autodiscover!
+  autodiscover
   autoprefixer-rails
   biz
   browser
+  bundler
   clearbit
   coffee-rails
   coffee-script-source
@@ -539,4 +535,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

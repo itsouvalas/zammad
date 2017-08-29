@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.4.1'
-
+gem 'bundler', '~> 1.15.4'
 gem 'rails', '4.2.9'
 gem 'rails-observers'
 gem 'activerecord-session_store'
@@ -83,7 +83,7 @@ gem 'clearbit'
 gem 'zendesk_api'
 gem 'viewpoint'
 gem 'rubyntlm', git: 'https://github.com/wimm/rubyntlm.git'
-gem 'autodiscover', git: 'https://github.com/thorsteneckel/autodiscover.git'
+gem 'autodiscover'
 
 # event machine
 gem 'eventmachine'
